@@ -1,0 +1,51 @@
+/***********************************************************
+   Utilities Classes Start
+************************************************************/
+
+.max-width-center {
+    max-width: 1200px;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.section-padding-x {
+    padding-inline: 2rem;
+}
+
+.section-padding-y {
+    padding-block: 4rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.primary-btn {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.transparent-btn {
+    color: var(--white);
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+
+@media (hover:hover) {
+
+    .primary-btn:hover {
+        background-color: var(--primary-color);
+    }
+
+    .transparent-btn:hover {
+        color: var(--black);
+        background-color: var(--white);
+    }
+}
+
+
+/***********************************************************
+   Utilities Classes End
+************************************************************/
