@@ -1,0 +1,288 @@
+/******************************************************************
+    Media Queries Start
+******************************************************************/
+@media only screen and (min-width:2201px) {
+    html {
+        font-size: 100%;
+    }
+
+    .two-cards-center .card {
+        padding: 3rem;
+    }
+
+    .max-width-center {
+        max-width: 80vw;
+    }
+
+}
+
+
+@media only screen and (min-width:1900px) and (max-width:2200px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width:1537px) and (max-width:1899px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width:1536px) and (min-height:900px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width:1450px) and (max-height:899px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+
+@media only screen and (max-width:1450px) and (min-height:900px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    #two-cards-section.section-padding-x {
+        padding-inline: 0;
+    }
+
+    .two-cards-center .card {
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1200px) and (max-height:899px) {
+    html {
+        font-size: 60%;
+    }
+
+    #banner-section .banner-center {
+        padding-top: 18rem;
+        padding-bottom: 23rem;
+    }
+
+}
+
+
+@media only screen and (max-width:850px) and (min-height:900px) {
+
+    .toggle-btn {
+        display: initial;
+        transition: all .3s linear;
+        font-size: 3.3rem;
+        z-index: 20;
+    }
+
+    .toggle-btn.rotate {
+        transform: rotateY(180deg);
+    }
+
+    .nav-links {
+        margin-top: 0;
+        float: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform-origin: left;
+        transform: perspective(2000px) rotateY(90deg);
+        transition: all .5s linear;
+        background: #ffffff3b;
+        backdrop-filter: blur(8px);
+        border: 1px solid #ffffff45;
+    }
+
+    .nav-links.show {
+        transform: perspective(2000px) rotateY(0deg);
+
+    }
+
+    .nav-links ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .nav-links ul li {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 4rem;
+    }
+
+    .nav-links ul li a {
+        color: var(--black);
+        font-size: 1.8rem;
+    }
+
+
+    .two-cards-center .card {
+        float: none;
+        width: 100%;
+    }
+
+    .service-box {
+        width: 50%;
+        padding: 2rem 1%;
+    }
+
+}
+
+
+@media only screen and (max-width:780px) {
+    .section-padding-x {
+        padding-inline: 1rem;
+    }
+
+    #banner-section .banner-center {
+        padding-top: 13rem;
+        padding-bottom: 23rem;
+    }
+
+}
+
+
+@media only screen and (max-width:780px) and (min-height:900px) {
+
+    html {
+        font-size: 70%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .contact-center input,
+    .contact-center textarea {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media only screen and (max-width:700px) and (min-height:901px) {
+
+    .two-cards-center .card p {
+        padding-inline: 1rem;
+    }
+
+    .service-box {
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+}
+
+@media only screen and (max-width:700px) and (max-height:900px) {
+    html {
+        font-size: 60%;
+    }
+
+
+    .toggle-btn {
+        display: initial;
+        transition: all .3s linear;
+        font-size: 3.3rem;
+        z-index: 20;
+    }
+
+    .toggle-btn.rotate {
+        transform: rotateY(180deg);
+    }
+
+    .nav-links {
+        margin-top: 0;
+        float: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform-origin: left;
+        transform: perspective(2000px) rotateY(90deg);
+        transition: all .5s linear;
+        background: #ffffff3b;
+        backdrop-filter: blur(8px);
+        border: 1px solid #ffffff45;
+    }
+
+    .nav-links.show {
+        transform: perspective(2000px) rotateY(0deg);
+
+    }
+
+    .nav-links ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .nav-links ul li {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 4rem;
+    }
+
+    .nav-links ul li a {
+        color: var(--black);
+        font-size: 1.8rem;
+    }
+
+
+    .two-cards-center .card {
+        float: none;
+        width: 100%;
+    }
+
+
+    .service-box {
+        float: none;
+        width: 60%;
+        padding: 3rem 0;
+        margin: 0 auto;
+    }
+
+    .contact-center input,
+    .contact-center textarea {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media only screen and (max-width:550px) and (max-height:900px) {
+    .service-box {
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+}
+
+@media only screen and (max-width:340px) {
+    html {
+        font-size: 40%;
+    }
+
+}
+
+/******************************************************************
+    Media Queries End
+******************************************************************/
