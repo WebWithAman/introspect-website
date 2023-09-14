@@ -232,7 +232,7 @@ nav .nav-center {
 **********************************************************/
 #banner-section {
     width: 100%;
-    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(0 0 0 / 46%) 80%), url(../Assets/Images/banner.jpg);
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(0 0 0 / 46%) 80%), url(../assets/images/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
